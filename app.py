@@ -1,8 +1,8 @@
-from actions.apiProduccion import produccion_routes
-from actions.apiProducto import producto_routes
-from actions.apiUsuario import usuario_routes
-from actions.apiRol import rol_routes
-from actions.auth import auth_routes
+from src.actions.apiProduccion import produccion_routes
+from src.actions.apiProducto import producto_routes
+from src.actions.apiUsuario import usuario_routes
+from src.actions.apiRol import rol_routes
+from src.actions.auth import auth_routes
 
 from config_db import app
 
