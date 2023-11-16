@@ -1,8 +1,9 @@
-from src.api.apiUsuario import usuario_routes
-from src.api.apiProducto import producto_routes
-from src.api.apiProduccion import produccion_routes
-from src.api.apiRol import rol_routes
-from src.api.auth import auth_routes
+from actions.apiProduccion import produccion_routes
+from actions.apiProducto import producto_routes
+from actions.apiUsuario import usuario_routes
+from actions.apiRol import rol_routes
+from actions.auth import auth_routes
+
 from config_db import app
 
 from dotenv import load_dotenv
